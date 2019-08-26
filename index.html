@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/widescreen.css" media="only screen and (min-width:	1441Px)">
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width:	500px)">
+
+
+
+
+    <script src="https://kit.fontawesome.com/a9261aa4a2.js"></script>
+    <title>Fly</title>
+    <link rel="icon" href="images/logo/logo.png" type="image/x-icon">
+</head>
+
+<body id="home">
+    <nav class="navbar">
+        <h1 class="logo">
+            <a href="#">
+                <span class="text-primary">
+                    <i class="fas fa-paper-plane"></i>
+                </span> Fly
+            </a>
+        </h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">The Sky Is The Limit</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eos expedita debitis
+                exercitationem ipsum
+                labore?</p>
+            <a href="#what" class="btn">Read More</a>
+        </div>
+    </header>
+
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-secondary">What</span> We Do
+            </h2>
+
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus nostrum sapiente
+                            laborum suscipit laboriosam!
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div>
+                        <h3>Portfolio Management</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus nostrum sapiente
+                            laborum suscipit laboriosam!
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                        <h3>Tax & Custodial</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus nostrum sapiente
+                            laborum suscipit laboriosam!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading">
+                <span class="text-primary">Who</span> We Are
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iusto consequuntur iure nobis a,
+                dolorem, nemo ad culpa nostrum aut dolor provident esse maxime sed, similique necessitatibus. Eligendi,
+                suscipit et.</p>
+            <h3>Our Team</h3>
+            <ul class="list">
+                <li>Aissa Serrar: Everything</li>
+                <li>Aissa Serrar: Everything</li>
+                <li>Aissa Serrar: Everything</li>
+                <li>Aissa Serrar: Everything</li>
+                <li>Aissa Serrar: Everything</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="clients" class="py-1 bg-light">
+        <div class="container">
+            <h2 class="m-heading text-center ">
+                <span class="text-secondary">Our</span> Clients
+            </h2>
+            <div class="items">
+                <div><img src="./images/logo/logo.png" alt="client"></div>
+                <div><img src="./images/logo/logo.png" alt="client"></div>
+                <div><img src="./images/logo/logo.png" alt="client"></div>
+                <div><img src="./images/logo/logo.png" alt="client"></div>
+                <div><img src="./images/logo/logo.png" alt="client"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-form bg-dark p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Use the form bellow to contact us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Enter Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="8" cols="30" placeholder="Enter Message"></textarea>
+                </div>
+
+                <input type="submit" value="Send" class="btn">
+            </form>
+        </div>
+        <div class="map"></div>
+
+    </section>
+
+    <footer id="footer">
+        <div class="container py-1 text-center">
+            <p>Copyright &copy; 2019 Aissa Serrar</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzGtPsha5qrBNLk5GtRF5vXhgaxR1nc1Y&callback=initMap"
+        async defer></script>
+
+</body>
+
+</html>

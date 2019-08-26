@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4rem;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* utility classes */
+.container {
+  max-width: 80%;
+  margin: auto;
+  padding: 0% 2rem;
+  overflow: hidden;
+}
+
+.bg-light {
+  background: #f4fffd;
+  color: #011936;
+}
+
+.bg-dark {
+  background: #011936;
+  color: white;
+}
+
+.text-primary {
+  color: #f9dc5c;
+}
+
+.text-secondary {
+  color: #011936;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #011936;
+  background: #f9dc5c;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-dark {
+  display: inline-block;
+  color: #f9dc5c;
+  background: #011936;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #dbc250;
+}
+
+.list {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #0a3366 dotted 1px;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #011936;
+  color: white;
+  position: sticky;
+  top: 0%;
+  z-index: 5;
+  padding: 1rem;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar ul li a {
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li a:hover {
+  background: #f9dc5c;
+  color: #011936;
+  border-radius: 5px;
+}
+
+/* Showcase styling */
+
+.showcase {
+  background: #011936 url("../images/sky.jpg") no-repeat center center/cover;
+  background-color: #0119367e;
+  background-blend-mode: multiply;
+  height: 100vh;
+  color: white;
+}
+
+.showcase-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 2rem;
+
+  /* overlay */
+  /* position: absolute;
+  top: 56px;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); */
+}
+
+/* what we do */
+
+#what .items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+#what .item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#what .items .item i {
+  background: #011936;
+  padding: 1rem;
+  border-radius: 50%;
+  color: #f9dc5c;
+  margin-bottom: 1rem;
+}
+
+/* who we are */
+
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .who-img {
+  background: url("../images/people.jpg") no-repeat center center/cover;
+}
+
+/* clients */
+#clients .items {
+  display: flex;
+  padding-top: 2rem;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#contact {
+  display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: .6rem;
+  border-radius: 5px;
+  resize: none;
+}
+
+#contact .contact-form input:focus,
+#contact .contact-form textarea:focus {
+  border-radius: 5px;
+  box-shadow: 0 0 1px 2px #f9dc5c;
+  outline: none;
+}
+
+#footer {
+  background: #333;
+  color: #f4fffd;
+}

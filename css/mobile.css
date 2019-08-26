@@ -1,0 +1,50 @@
+.container {
+    max-width: 100%;
+    padding: 0% 1rem;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+}
+
+.navbar .logo {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#what .items {
+    display: flex;
+    flex-direction: column;
+    text-align: justify
+}
+
+#who {
+    display: flex;
+    flex-direction: column;
+}
+
+#who .who-img {
+    display: none
+}
+
+#clients .items {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+#contact {
+
+    flex-direction: column;
+
+}
